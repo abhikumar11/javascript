@@ -1,0 +1,21 @@
+let str="javascript is a great language javascript is an easy language";
+let x=str.length;
+x=str.indexOf("p");
+x=str.toLowerCase();
+x=str.toUpperCase();
+x=str.includes("great");
+x=str.replace("javascript","react");
+x=str.replaceAll("javascript","react");
+x=str.trim();
+x=str.split(" ");
+x=str.slice(0,10);
+console.log(str);
+x=str.substring(12);
+console.log(x);
+let a="hello";
+let b="world";
+let c=`${a} ${b}`;
+
+let mystring="developer";
+c=`${mystring.charAt(0).toUpperCase()}${mystring.substring(1)}`;
+console.log(c);
