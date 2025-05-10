@@ -19,3 +19,4 @@ let d=a.concat(" ".concat(b));
 let mystring="developer";
 c=`${mystring.charAt(0).toUpperCase()}${mystring.substring(1)}`;
 console.log(c);
+
