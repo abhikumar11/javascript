@@ -16,13 +16,14 @@
             <p id="seconds">00</p>
         </div>
         <div class="input-section">
-            <input type="text" id="inputHours" placeholder="HH">
-            <input type="text" id="inputMinutes" placeholder="MM">
-            <input type="text" id="inputSeconds" placeholder="SS">
+            <input type="text" id="inputHours" placeholder="00">
+            <input type="text" id="inputMinutes" placeholder="00">
+            <input type="text" id="inputSeconds" placeholder="00">
         </div>
         <div class="buttons">
-            <button id="start">Start</button>
-            <button id="stopBtn">Stop</button>
+            <button id="startBtn" onclick="startTimer()">Start</button>
+            <button id="stopBtn" onclick="stopTimer()">Stop</button>
+            <button id="resetBtn" onclick="resetTimer()">Reset</button>
         </div>
     </div>
     <script src="script.js"></script>

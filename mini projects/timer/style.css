@@ -44,6 +44,15 @@ button{
     border: none;
     cursor: pointer;
     border-radius: 10px;
-    background-color: #007BFF;
     color: white;
+}
+
+#startBtn{
+    background-color: green;
+}
+#stopBtn{
+    background-color:skyblue;
+}
+#resetBtn{
+    background-color: red;
 }
