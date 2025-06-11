@@ -10,6 +10,12 @@ const Validate = () => {
      let errpass = document.querySelector("#errpass");
      let errcpass = document.querySelector("#errcpass");
 
+     errname.innerHTML="";
+     erremail.innerHTML="";
+     errnum.innerHTML="";
+     errpass.innerHTML="";
+     errcpass.innerHTML="";
+     
      if(Name==""){
         errname.innerHTML="Please enter name";
         errname.style.color="red";
