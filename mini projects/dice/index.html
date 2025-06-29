@@ -1,46 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        .main{
-        align-items: center;
-        }
-    .dice {
-  width: 80px;
-  height: 80px;
-  border: 2px solid black;
-  border-radius: 12px;
-  color: red;
-  background-color: white;
-  margin: 10px;
-  justify-content: center;
-  align-items: center;
-  font-size: 28px;
-  font-family: monospace;
-  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
-  display:none;
-}
-
-.dice p {
-  margin: 0;
-}
-</style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="style.css" />
+  <title>Dice Roller</title>
 </head>
-
 <body>
-    <div class="main">
-   <div class="dice face1"><p>.</p></div>
-<div class="dice face2"><p>..</p></div>
-<div class="dice face3"><p>...</p></div>
-<div class="dice face4"><p>....</p></div>
-<div class="dice face5"><p>.....</p></div>
-<div class="dice face6"><p>......</p></div>
-<button onclick="roll()">Roll Dice</button>
-<p id="display"></p>
-</div>
-    <script src="script.js"></script>
+  <div class="main">
+    <img id="dice" src="images/face1.png" alt="Dice Face" />
+    <button onclick="roll()">Roll Dice</button>
+    <p id="display">You rolled a 1</p>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>

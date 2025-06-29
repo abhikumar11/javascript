@@ -23,4 +23,3 @@ const getData=async()=>{
 let del=(id)=>{
     fetch(`http://localhost:3000/user/${id}`,{method:"DELETE"})
 }
-getData();

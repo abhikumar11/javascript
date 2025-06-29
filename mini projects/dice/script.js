@@ -1,10 +1,7 @@
-function roll(){
-    let out=document.querySelector("#display");
-    let res=Math.trunc(Math.random()*6)+1;
-    out.innerHTML=res;
-    document.querySelectorAll(".dice").forEach(dice => {
-    dice.style.display = "none";
-  });
-    let dis=document.querySelector(`.face${res}`);
-     dis.style.display = "flex";
+  const roll=()=> {
+  const dice = document.getElementById("dice");
+  const display = document.getElementById("display");
+  const rollValue = Math.floor(Math.random() * 6) + 1;
+  dice.src = `images/face${rollValue}.png`;
+  display.textContent = `You rolled a ${rollValue}`;
 }
