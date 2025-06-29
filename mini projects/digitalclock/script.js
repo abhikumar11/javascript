@@ -1,4 +1,4 @@
-function updateClock() {
+function digitalClock() {
      const now = new Date();
      let hours = now.getHours().toString().padStart(2, "0");
      let minutes = now.getMinutes().toString().padStart(2, "0");
@@ -10,5 +10,5 @@ function updateClock() {
           .padStart(2, "0")}:${minutes}:${seconds} ${ampm}`;
      document.getElementById("clock").textContent = timeString;
 }
-updateClock();
-setInterval(updateClock, 1000);
+digitalClock();
+setInterval(digitalClock, 1000);
